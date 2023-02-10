@@ -171,7 +171,6 @@ MonoBehaviour:
   - {fileID: 1704359339282853508, guid: 623642a0dfd0e4dc4aef0ae0f7a5d921, type: 3}
   - {fileID: 7014030097524839195, guid: 5eb7e08b8430f47a39d23afdc69760a4, type: 3}
   - {fileID: 6130004035118387651, guid: db9c92842d2c6417fb4e4eeae86bcd6b, type: 3}
-  animalIndex: 0
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -816,11 +815,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590138454}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1745980011 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6449092175202707442, guid: 144084f5fd21e4a71ab5fe665d3b7653, type: 3}
-  m_PrefabInstance: {fileID: 6449092175032427357}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1902464074 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 610afbb40c4385d42aa33adfe3531f0a, type: 3}
@@ -841,7 +835,7 @@ MonoBehaviour:
   horizontalInput: 0
   speed: 10
   xRange: 10
-  projectilePrefab: {fileID: 1745980011}
+  projectilePrefab: {fileID: 6449092175202707442, guid: 144084f5fd21e4a71ab5fe665d3b7653, type: 3}
 --- !u!1001 &6130004035166596863
 PrefabInstance:
   m_ObjectHideFlags: 0
