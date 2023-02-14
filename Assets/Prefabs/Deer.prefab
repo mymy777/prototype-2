@@ -861,6 +861,7 @@ GameObject:
   - component: {fileID: 1704359339283034226}
   - component: {fileID: 1704359339273415482}
   - component: {fileID: 1704359337708378236}
+  - component: {fileID: -3222019382245461811}
   m_Layer: 0
   m_Name: Deer
   m_TagString: Untagged
@@ -895,7 +896,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!95 &1704359339273415482
 Animator:
-  serializedVersion: 5
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -912,7 +913,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 0
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1704359337708378236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -926,3 +927,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 40
+--- !u!114 &-3222019382245461811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704359339282853508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c756c56ff15534f82b4d5ed4a409ad69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
